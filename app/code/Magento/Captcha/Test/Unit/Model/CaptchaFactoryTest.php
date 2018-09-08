@@ -7,7 +7,7 @@ namespace Magento\Captcha\Test\Unit\Model;
 
 class CaptchaFactoryTest extends \PHPUnit\Framework\TestCase
 {
-    /**@var \PHPUnit_Framework_MockObject_MockObject */
+    /** @var \PHPUnit_Framework_MockObject_MockObject */
     protected $_objectManagerMock;
 
     /** @var \Magento\Captcha\Model\CaptchaFactory */

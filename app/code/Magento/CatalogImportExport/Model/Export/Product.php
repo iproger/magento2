@@ -1367,7 +1367,7 @@ class Product extends \Magento\ImportExport\Model\Export\Entity\AbstractEntity
 
         foreach (array_keys($this->_storeIdToCode) as $storeId) {
             $options = $this->_optionColFactory->create();
-            /* @var Collection $options*/
+            /* @var Collection $options */
             $options->reset()
                 ->addOrder('sort_order', Collection::SORT_ORDER_ASC)
                 ->addTitleToResult($storeId)

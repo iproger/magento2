@@ -13,13 +13,13 @@ use Magento\Framework\TestFramework\Unit\Helper\ObjectManager;
 
 class PathConfigTest extends \PHPUnit\Framework\TestCase
 {
-    /** @var \Magento\Framework\App\Config\ScopeConfigInterface | \PHPUnit_Framework_MockObject_MockObject*/
+    /** @var \Magento\Framework\App\Config\ScopeConfigInterface | \PHPUnit_Framework_MockObject_MockObject */
     private $scopeConfigMock;
-    /** @var \Magento\Framework\Url\SecurityInfoInterface | \PHPUnit_Framework_MockObject_MockObject*/
+    /** @var \Magento\Framework\Url\SecurityInfoInterface | \PHPUnit_Framework_MockObject_MockObject */
     private $urlSecurityInfoMock;
-    /** @var StoreManagerInterface | \PHPUnit_Framework_MockObject_MockObject*/
+    /** @var StoreManagerInterface | \PHPUnit_Framework_MockObject_MockObject */
     private $storeManagerMock;
-    /** @var Store | \PHPUnit_Framework_MockObject_MockObject*/
+    /** @var Store | \PHPUnit_Framework_MockObject_MockObject */
     private $storeMock;
     /** @var \Magento\Store\Model\RouteConfig */
     protected $model;

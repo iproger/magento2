@@ -150,7 +150,7 @@ class CustomerRegistry
         }
         /** @var Customer $customer */
         $customer = $this->retrieve($customerId);
-        /** @var $customerSecure CustomerSecure*/
+        /** @var $customerSecure CustomerSecure */
         $customerSecure = $this->customerSecureFactory->create();
         $customerSecure->setPasswordHash($customer->getPasswordHash());
         $customerSecure->setRpToken($customer->getRpToken());

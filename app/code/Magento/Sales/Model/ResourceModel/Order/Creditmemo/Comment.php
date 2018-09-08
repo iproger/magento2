@@ -78,7 +78,7 @@ class Comment extends EntityAbstract implements CreditmemoCommentResourceInterfa
      */
     protected function _beforeSave(\Magento\Framework\Model\AbstractModel $object)
     {
-        /**@var $object \Magento\Sales\Model\Order\Creditmemo\Comment*/
+        /** @var $object \Magento\Sales\Model\Order\Creditmemo\Comment */
         if (!$object->getParentId() && $object->getCreditmemo()) {
             $object->setParentId($object->getCreditmemo()->getId());
         }

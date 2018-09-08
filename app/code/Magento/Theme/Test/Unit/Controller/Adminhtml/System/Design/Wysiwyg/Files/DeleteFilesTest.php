@@ -10,7 +10,7 @@ class DeleteFilesTest extends \PHPUnit\Framework\TestCase
     /** @var \Magento\Theme\Controller\Adminhtml\System\Design\Wysiwyg\Files */
     protected $controller;
 
-    /** @var \PHPUnit_Framework_MockObject_MockObject|\PHPUnit_Framework_MockObject_MockObject*/
+    /** @var \PHPUnit_Framework_MockObject_MockObject|\PHPUnit_Framework_MockObject_MockObject */
     protected $objectManager;
 
     /** @var \Magento\Theme\Helper\Storage|\PHPUnit_Framework_MockObject_MockObject */

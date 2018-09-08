@@ -45,7 +45,7 @@ class Item extends SalesResource implements OrderItemResourceInterface
      */
     protected function _beforeSave(\Magento\Framework\Model\AbstractModel $object)
     {
-        /**@var $object \Magento\Sales\Model\Order\Item */
+        /** @var $object \Magento\Sales\Model\Order\Item */
         if (!$object->getOrderId() && $object->getOrder()) {
             $object->setOrderId($object->getOrder()->getId());
         }

@@ -16,7 +16,7 @@ use Magento\Framework\Exception\LocalizedException;
  */
 class BackendModel extends Value
 {
-    /** Maximum dmin session lifetime; 1 year*/
+    /** Maximum dmin session lifetime; 1 year */
     const MAX_LIFETIME = 31536000;
 
     /** Minimum admin session lifetime */

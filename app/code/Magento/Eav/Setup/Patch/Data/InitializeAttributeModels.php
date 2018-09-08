@@ -113,7 +113,7 @@ class InitializeAttributeModels implements DataPatchInterface, PatchVersionInter
         ]);
         $groups = $eavSetup->getAttributeGroupCollectionFactory();
         foreach ($groups as $group) {
-            /** @var $group \Magento\Eav\Model\Entity\Attribute\Group*/
+            /** @var $group \Magento\Eav\Model\Entity\Attribute\Group */
             $group->save();
         }
         $this->moduleDataSetup->endSetup();

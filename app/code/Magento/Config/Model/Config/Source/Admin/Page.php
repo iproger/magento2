@@ -72,7 +72,7 @@ class Page implements \Magento\Framework\Option\ArrayInterface
         $paddingString = str_repeat($nonEscapableNbspChar, $level * 4);
 
         foreach ($this->_getMenuIterator($menu) as $menuItem) {
-            /**@var  $menuItem \Magento\Backend\Model\Menu\Item */
+            /** @var  $menuItem \Magento\Backend\Model\Menu\Item */
             if ($menuItem->getAction()) {
                 $optionArray[] = [
                     'label' => $paddingString . $menuItem->getTitle(),

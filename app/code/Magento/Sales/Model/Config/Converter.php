@@ -26,7 +26,7 @@ class Converter implements \Magento\Framework\Config\ConverterInterface
             return $output;
         }
 
-        /** @var \DOMNodeList $sections*/
+        /** @var \DOMNodeList $sections */
         $sections = $source->getElementsByTagName('section');
 
         /** @var \DOMElement $section */

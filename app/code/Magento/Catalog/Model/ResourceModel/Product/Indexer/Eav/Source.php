@@ -126,7 +126,7 @@ class Source extends AbstractEav
         $attrIdsFlat = implode(',', array_map('intval', $attrIds));
         $ifNullSql = $connection->getIfNullSql('pis.value', 'COALESCE(ds.value, dd.value)');
 
-        /**@var $select \Magento\Framework\DB\Select*/
+        /** @var $select \Magento\Framework\DB\Select */
         $select = $connection->select()->distinct(true)->from(
             ['s' => $this->getTable('store')],
             []

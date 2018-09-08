@@ -60,7 +60,7 @@ class BackendTemplateTest extends \PHPUnit\Framework\TestCase
         $this->resourceModelMock->expects($this->any())
             ->method('getSystemConfigByPathsAndTemplateId')
             ->willReturn(['test_config' => 2015]);
-        /** @var ObjectManagerInterface|\PHPUnit_Framework_MockObject_MockObject $objectManagerMock*/
+        /** @var ObjectManagerInterface|\PHPUnit_Framework_MockObject_MockObject $objectManagerMock */
         $objectManagerMock = $this->createMock(\Magento\Framework\ObjectManagerInterface::class);
         $objectManagerMock->expects($this->any())
             ->method('get')
@@ -84,7 +84,7 @@ class BackendTemplateTest extends \PHPUnit\Framework\TestCase
     protected function tearDown()
     {
         parent::tearDown();
-        /** @var ObjectManagerInterface|\PHPUnit_Framework_MockObject_MockObject $objectManagerMock*/
+        /** @var ObjectManagerInterface|\PHPUnit_Framework_MockObject_MockObject $objectManagerMock */
         $objectManagerMock = $this->createMock(\Magento\Framework\ObjectManagerInterface::class);
         \Magento\Framework\App\ObjectManager::setInstance($objectManagerMock);
     }

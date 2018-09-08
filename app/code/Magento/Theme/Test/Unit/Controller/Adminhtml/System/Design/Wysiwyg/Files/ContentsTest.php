@@ -16,7 +16,7 @@ class ContentsTest extends \PHPUnit\Framework\TestCase
     /** @var \Magento\Framework\App\ViewInterface|\PHPUnit_Framework_MockObject_MockObject */
     protected $view;
 
-    /** @var \PHPUnit_Framework_MockObject_MockObject|\PHPUnit_Framework_MockObject_MockObject*/
+    /** @var \PHPUnit_Framework_MockObject_MockObject|\PHPUnit_Framework_MockObject_MockObject */
     protected $objectManager;
 
     /** @var \Magento\Backend\Model\Session|\PHPUnit_Framework_MockObject_MockObject */
