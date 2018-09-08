@@ -152,7 +152,7 @@ class Tabs extends WigetTabs
             $advancedGroups = [];
 
             foreach ($this->getGroupCollection($setId) as $group) {
-                /** @var $group \Magento\Eav\Model\Entity\Attribute\Group*/
+                /** @var $group \Magento\Eav\Model\Entity\Attribute\Group */
                 $attributes = $product->getAttributes($group->getId(), true);
 
                 foreach ($attributes as $key => $attribute) {

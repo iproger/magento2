@@ -21,13 +21,13 @@ class ReviewPaymentTest extends \PHPUnit\Framework\TestCase
     /** @var  \Magento\Sales\Api\Data\OrderInterface|\PHPUnit_Framework_MockObject_MockObject */
     protected $orderMock;
 
-    /** @var  \Magento\Backend\Model\View\Result\RedirectFactory | \PHPUnit_Framework_MockObject_MockObject*/
+    /** @var  \Magento\Backend\Model\View\Result\RedirectFactory | \PHPUnit_Framework_MockObject_MockObject */
     protected $resultRedirectFactoryMock;
 
     /** @var \Magento\Backend\Model\View\Result\Redirect|\PHPUnit_Framework_MockObject_MockObject */
     protected $resultRedirectMock;
 
-    /**@var \Magento\Framework\App\Request\Http|\PHPUnit_Framework_MockObject_MockObject */
+    /** @var \Magento\Framework\App\Request\Http|\PHPUnit_Framework_MockObject_MockObject */
     protected $requestMock;
 
     /** @var  \Magento\Sales\Model\Order\Payment|\PHPUnit_Framework_MockObject_MockObject */

@@ -10,7 +10,7 @@ use Magento\Framework\TestFramework\Unit\Helper\ObjectManager as ObjectManagerHe
 
 class TextTest extends \PHPUnit\Framework\TestCase
 {
-    /** @var \Magento\Backend\Block\Widget\Grid\Column\Filter\Text*/
+    /** @var \Magento\Backend\Block\Widget\Grid\Column\Filter\Text */
     protected $block;
 
     /** @var ObjectManagerHelper */

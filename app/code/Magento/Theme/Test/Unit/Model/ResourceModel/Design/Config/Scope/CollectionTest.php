@@ -20,7 +20,7 @@ class CollectionTest extends \PHPUnit\Framework\TestCase
     /** @var  EntityFactoryInterface|\PHPUnit_Framework_MockObject_MockObject */
     protected $entityFactoryMock;
 
-    /** @var ScopeTreeProviderInterface|\PHPUnit_Framework_MockObject_MockObject*/
+    /** @var ScopeTreeProviderInterface|\PHPUnit_Framework_MockObject_MockObject */
     protected $scopeTreeMock;
 
     /** @var MetadataProviderInterface|\PHPUnit_Framework_MockObject_MockObject */

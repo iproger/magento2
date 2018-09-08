@@ -163,7 +163,7 @@ class Shortcut extends \Magento\Framework\View\Element\Template implements Catal
         if ($isInCatalog || null === $quote) {
             $this->setImageUrl($this->config->getExpressCheckoutShortcutImageUrl($this->_localeResolver->getLocale()));
         } else {
-            /**@todo refactor checkout model. Move getCheckoutShortcutImageUrl to helper or separate model */
+            /** @todo refactor checkout model. Move getCheckoutShortcutImageUrl to helper or separate model */
             $parameters = ['params' => ['quote' => $quote, 'config' => $this->config]];
             $checkoutModel = $this->_checkoutFactory->create($this->_checkoutType, $parameters);
             $this->setImageUrl($checkoutModel->getCheckoutShortcutImageUrl());

@@ -30,7 +30,7 @@ class FinalPriceTest extends \PHPUnit\Framework\TestCase
     /** @var float */
     protected $quantity = 1.;
 
-    /** @var float*/
+    /** @var float */
     protected $baseAmount;
 
     /** @var \Magento\Bundle\Pricing\Adjustment\BundleCalculatorInterface|\PHPUnit_Framework_MockObject_MockObject */

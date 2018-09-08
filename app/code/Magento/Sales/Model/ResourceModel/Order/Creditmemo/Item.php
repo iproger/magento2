@@ -38,7 +38,7 @@ class Item extends SalesResource implements CreditmemoItemResourceInterface
      */
     protected function _beforeSave(\Magento\Framework\Model\AbstractModel $object)
     {
-        /**@var $object \Magento\Sales\Model\Order\Creditmemo\Item*/
+        /** @var $object \Magento\Sales\Model\Order\Creditmemo\Item */
         if (!$object->getParentId() && $object->getCreditmemo()) {
             $object->setParentId($object->getCreditmemo()->getId());
         }

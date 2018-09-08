@@ -10,7 +10,7 @@ use Magento\Framework\Exception\NoSuchEntityException;
 
 class PathProcessor
 {
-    /**  Store code alias to indicate that all stores should be affected by action */
+    /** Store code alias to indicate that all stores should be affected by action */
     const ALL_STORE_CODE = 'all';
 
     /**

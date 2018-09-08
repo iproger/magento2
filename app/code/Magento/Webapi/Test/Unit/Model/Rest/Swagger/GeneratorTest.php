@@ -14,13 +14,13 @@ class GeneratorTest extends \PHPUnit\Framework\TestCase
 {
     const OPERATION_NAME = 'operationName';
 
-    /**  @var \Magento\Webapi\Model\Rest\Swagger\Generator */
+    /** @var \Magento\Webapi\Model\Rest\Swagger\Generator */
     protected $generator;
 
-    /**  @var \Magento\Webapi\Model\ServiceMetadata|\PHPUnit_Framework_MockObject_MockObject */
+    /** @var \Magento\Webapi\Model\ServiceMetadata|\PHPUnit_Framework_MockObject_MockObject */
     protected $serviceMetadataMock;
 
-    /**  @var \Magento\Webapi\Model\Rest\SwaggerFactory|\PHPUnit_Framework_MockObject_MockObject */
+    /** @var \Magento\Webapi\Model\Rest\SwaggerFactory|\PHPUnit_Framework_MockObject_MockObject */
     protected $swaggerFactoryMock;
 
     /** @var \Magento\Webapi\Model\Cache\Type\Webapi|\PHPUnit_Framework_MockObject_MockObject */

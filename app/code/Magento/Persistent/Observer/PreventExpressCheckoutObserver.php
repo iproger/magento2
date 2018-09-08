@@ -72,7 +72,7 @@ class PreventExpressCheckoutObserver implements ObserverInterface
             return;
         }
 
-        /** @var $controllerAction \Magento\Checkout\Controller\Express\RedirectLoginInterface*/
+        /** @var $controllerAction \Magento\Checkout\Controller\Express\RedirectLoginInterface */
         $controllerAction = $observer->getEvent()->getControllerAction();
         if (!$controllerAction ||
             !$controllerAction instanceof \Magento\Checkout\Controller\Express\RedirectLoginInterface ||

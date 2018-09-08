@@ -13,7 +13,7 @@ namespace Magento\Webapi\Test\Unit\Model\Soap\Wsdl;
  */
 class GeneratorTest extends \PHPUnit\Framework\TestCase
 {
-    /**  @var \Magento\Webapi\Model\Soap\Wsdl\Generator */
+    /** @var \Magento\Webapi\Model\Soap\Wsdl\Generator */
     protected $_wsdlGenerator;
 
     /**
@@ -21,10 +21,10 @@ class GeneratorTest extends \PHPUnit\Framework\TestCase
      */
     protected $customAttributeTypeLocator = null;
 
-    /**  @var \Magento\Webapi\Model\ServiceMetadata|\PHPUnit_Framework_MockObject_MockObject */
+    /** @var \Magento\Webapi\Model\ServiceMetadata|\PHPUnit_Framework_MockObject_MockObject */
     protected $serviceMetadata;
 
-    /**  @var \Magento\Webapi\Model\Soap\WsdlFactory|\PHPUnit_Framework_MockObject_MockObject */
+    /** @var \Magento\Webapi\Model\Soap\WsdlFactory|\PHPUnit_Framework_MockObject_MockObject */
     protected $_wsdlFactoryMock;
 
     /** @var \Magento\Webapi\Model\Cache\Type\Webapi|\PHPUnit_Framework_MockObject_MockObject */

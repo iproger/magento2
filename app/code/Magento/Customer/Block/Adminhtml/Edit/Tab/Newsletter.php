@@ -140,7 +140,7 @@ class Newsletter extends \Magento\Backend\Block\Widget\Form\Generic implements T
         if (!$this->canShowTab()) {
             return $this;
         }
-        /**@var \Magento\Framework\Data\Form $form */
+        /** @var \Magento\Framework\Data\Form $form */
         $form = $this->_formFactory->create();
         $form->setHtmlIdPrefix('_newsletter');
         $customerId = $this->_coreRegistry->registry(RegistryConstants::CURRENT_CUSTOMER_ID);
