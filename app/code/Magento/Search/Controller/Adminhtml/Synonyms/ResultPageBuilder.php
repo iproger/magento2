@@ -62,7 +62,7 @@ class ResultPageBuilder
     public function build()
     {
         $this->checkSearchEngineSupport();
-        /** @var \Magento\Backend\Model\View\Result\Page  $resultPage **/
+        /** @var \Magento\Backend\Model\View\Result\Page  $resultPage */
         $resultPage = $this->resultPageFactory->create();
 
         // Make it active on menu and set breadcrumb trail

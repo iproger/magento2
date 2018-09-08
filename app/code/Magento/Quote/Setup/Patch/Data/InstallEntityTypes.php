@@ -12,7 +12,7 @@ use Magento\Quote\Setup\QuoteSetupFactory;
 use Magento\Framework\Setup\Patch\DataPatchInterface;
 use Magento\Framework\Setup\Patch\PatchVersionInterface;
 
-/***
+/**
  * Class InstallEntityTypes
  * @package Magento\Quote\Setup\Patch
  */

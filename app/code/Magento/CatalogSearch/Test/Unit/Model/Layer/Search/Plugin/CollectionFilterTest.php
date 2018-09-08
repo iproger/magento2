@@ -45,7 +45,7 @@ class CollectionFilterTest extends \PHPUnit\Framework\TestCase
      */
     private $queryMock;
 
-    /***
+    /**
      * @var ObjectManager
      */
     private $objectManager;
